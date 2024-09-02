@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Test for Effective hhru</string>
+    <string name="bb_search">Search</string>
+    <string name="bb_favorites">Favorites</string>
+    <string name="bb_responses">Responses</string>
+    <string name="bb_messages">Messages</string>
+    <string name="bb_profile">Profile</string>
+    <string name="login_to_your_personal_account">Login to your personal account</string>
+    <string name="job_search">Job search</string>
+    <string name="continue_">Continue</string>
+    <string name="login_with_password">Login with password</string>
+    <string name="search_for_employees">Search for employees</string>
+    <string name="posting_vacancies">Posting vacancies and access to the resume database</string>
+    <string name="i_find_employees">I search for employees</string>
+    <string name="email_or_phone">Email or phone</string>
+    <string name="you_entered_uncorrected_email">You entered uncorrected e-mail</string>
+    <string name="code_was_sent">Code was sent on example@mail.ru</string>
+    <string name="write_code">Write it to confirm that it is you and not someone else who is logging into your personal account</string>
+    <string name="confirm">Confirm</string>
+    <string name="vacancies_for_you">Vacancies for you</string>
+    <string name="respond">Respond</string>
+    <string name="by_compliance">По соответствию</string>
+    <string name="resume_for_response">Resume for response</string>
+    <string name="add_accompanying">Add accompanying</string>
+    <string name="your_accompanying">Your accompanying</string>
+    <string name="favorites">Favorites</string>
+
+</resources>

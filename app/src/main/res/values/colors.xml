@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cv_background">#222325</color>
+    <color name="ed_background">#313234</color>
+    <color name="ed_hint_text">#858688</color>
+    <color name="b_not_active_background">#00427D</color>
+    <color name="b_not_active_text">#9F9F9F</color>
+    <color name="special_blue">#2B7EFE</color>
+    <color name="b_green_background">#4CB24E</color>
+    <color name="warning">#FF0000</color>
+
+</resources>

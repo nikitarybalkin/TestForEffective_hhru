@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_search1">#2F3035</color>
+    <color name="black_search2">#3E3F43</color>
+    <color name="line">#5E5F61</color>
+    <color name="ed_hint">#9F9F9F</color>
+    <color name="background_dialog">#242529</color>
+    <color name="background_direct_flights">#1D1E20</color>
+    <color name="price_color">#2261BC</color>
+    <color name="b_ready">#3A633B</color>
+
+</resources>
