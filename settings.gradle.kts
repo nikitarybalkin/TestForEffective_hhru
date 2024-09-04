@@ -21,5 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Test for Effective hhru"
 include(":app")
-include(":entry")
 include(":core")
+include(":feature:entry")
+include(":database")
+include(":network")

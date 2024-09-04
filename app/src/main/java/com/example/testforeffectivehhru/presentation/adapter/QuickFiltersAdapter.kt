@@ -4,4 +4,4 @@ class QuickFiltersAdapter() {
 
 }
 
-class QuickFiltersViewHolder(val binding: ItemTicketBinding): RecyclerView.ViewHolder(binding.root)
+//class QuickFiltersViewHolder(val binding: ItemTicketBinding): RecyclerView.ViewHolder(binding.root)

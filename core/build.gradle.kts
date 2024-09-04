@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
+    kotlin("kapt") version "1.9.23"
+    id("com.google.devtools.ksp") version "1.9.0-1.0.13"
 }
 
 android {
@@ -40,4 +42,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //Dagger
+    kapt("com.google.dagger:dagger-android-processor:2.48")
+    ksp("com.google.dagger:dagger-compiler:2.48")
+    implementation("com.google.dagger:dagger:2.48")
+    implementation("com.google.dagger:dagger-android-support:2.48")
 }
