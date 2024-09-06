@@ -12,10 +12,4 @@ import javax.inject.Inject
 class EntryViewModel @Inject constructor(private val vocationsUseCase: VocationsUseCase) : ViewModel() {
     var et_text = ""
     val vocations: MutableStateFlow<VocationsModel?> = MutableStateFlow(null)
-    fun getVocations() {
-        viewModelScope.launch {
-            vocations.value = vocationsUseCase.getVocations()
-        }
-    }
-
 }

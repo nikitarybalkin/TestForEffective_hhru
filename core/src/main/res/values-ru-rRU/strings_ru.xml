@@ -24,5 +24,46 @@
     <string name="resume_for_response">Резюме для отклика</string>
     <string name="add_accompanying">Добавить сопроводительное</string>
     <string name="your_accompanying">Ваше сопроводительное письмо</string>
-    <string name="favorites">Favorites</string>
+    <string name="favorites">Избранное</string>
+    <string name="raise_in_search">Raise in search</string>
+    <string name="publicated_date">Опубликовано %1s %2s</string>
+    <string name="position_keywords">Должность, ключевые слова</string>
+    <string name="your_tasks">Ваши задачи</string>
+    <string name="position_suitable_vacancies">Должность по подходящим вакансиям</string>
+    <string name="ask_question">Задайте вопрос работодателю</string>
+    <string name="he_get_it">Он получит его с откликом на вакансию</string>
+    <string name="required_experience">Требуемый опыт %1s</string>
+    <plurals name="currently_viewing">
+        <item quantity="zero">Сейчас никто не просматривает</item>
+        <item quantity="one">Сейчас просматривает %1$d человек</item>
+        <item quantity="few">Сейчас просматривает %1$d человека</item>
+        <item quantity="many">Сейчас просматривает %1$d человек</item>
+    </plurals>
+    <plurals name="people_already_responded">
+        <item quantity="zero">Ни один человек не откликнулся</item>
+        <item quantity="one">%1$d человек откликнулся</item>
+        <item quantity="few">%1$d человека откликнулись</item>
+        <item quantity="many">%1$d человек откликнулись</item>
+        <item quantity="other">%1$d человек откликнулись</item>
+    </plurals>
+    <plurals name="now_looking">
+        <item quantity="zero">Ни один человек не смотрит сейчас</item>
+        <item quantity="one">%1$d человек сейчас смотрят</item>
+        <item quantity="few">%1$d человека сейчас смотрят</item>
+        <item quantity="many">%1$d человек сейчас смотрит</item>
+        <item quantity="other">%1$d человек сейчас смотрят</item>
+    </plurals>
+    <plurals name="more_vacancies">
+        <item quantity="one">Ещё %1d вакансия</item>
+        <item quantity="few">Ещё %1d вакансии</item>
+        <item quantity="many">Ещё %1d вакансий</item>
+        <item quantity="other">Ещё %1d вакансий</item>
+    </plurals>
+    <plurals name="quantity_vacancies">
+        <item quantity="one">%1d вакансия</item>
+        <item quantity="few">%1d вакансии</item>
+        <item quantity="many">%1d вакансий</item>
+        <item quantity="other">Ещё %1d вакансий</item>
+    </plurals>
+
 </resources>

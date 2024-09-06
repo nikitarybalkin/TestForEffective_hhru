@@ -1,6 +1,9 @@
 package com.example.testforeffectivehhru.di
 
 import androidx.lifecycle.ViewModel
+import com.example.vacancies.presentation.FullVacancyViewModel
+import com.example.vacancies.presentation.MainViewModel
+import com.example.vacancies.presentation.ResponseViewModel
 import com.feature.entry.presentation.EntryViewModel
 import com.feature.entry.presentation.VerificationCodeViewModel
 import dagger.Binds
@@ -22,14 +25,21 @@ interface ViewModelModule {
     @Binds
     fun bindsVerificationCodeViewModel(impl: VerificationCodeViewModel): ViewModel
 
-    /*@IntoMap
-    @StringKey("SearchChosenViewModel")
+    @IntoMap
+    @StringKey("MainViewModel")
     @Binds
-    fun bindsSearchChosenViewModel(impl: SearchChosenViewModel): ViewModel
+    fun bindsMainViewModel(impl: MainViewModel): ViewModel
 
     @IntoMap
-    @StringKey("AllTicketsViewModel")
+    @StringKey("ResponseViewModel")
     @Binds
-    fun bindsAllTicketsViewModel(impl: AllTicketsViewModel): ViewModel*/
+    fun bindsResponseViewModel(impl: ResponseViewModel): ViewModel
+
+    @IntoMap
+    @StringKey("FullVacancyViewModel")
+    @Binds
+    fun bindsFullVacancyViewModel(impl: FullVacancyViewModel): ViewModel
+
+
 
 }

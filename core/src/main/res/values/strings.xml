@@ -24,5 +24,42 @@
     <string name="add_accompanying">Add accompanying</string>
     <string name="your_accompanying">Your accompanying</string>
     <string name="favorites">Favorites</string>
+    <string name="raise_in_search">Raise in search</string>
+    <string name="publicated_date">Publicated %1s %2s</string>
+    <string name="position_keywords">Position, keywords</string>
+    <string name="position_suitable_vacancies">Position for suitable vacancies</string>
+    <string name="your_tasks">Your tasks</string>
+    <string name="ask_question">Ask the employer a question</string>
+    <string name="he_get_it">He will receive it with the response to the vacancy</string>
+    <string name="required_experience">Required experience %1s</string>
+    <plurals name="currently_viewing">
+        <item quantity="zero">Currently viewing no one</item>
+        <item quantity="one">Currently viewing by %1$d person</item>
+        <item quantity="other">Currently viewing by %1$d people</item>
+    </plurals>
+    <plurals name="people_already_responded">
+        <item quantity="zero">No one has no responded</item>
+        <item quantity="one">%1$d man have already responded</item>
+        <item quantity="other">%1$d people have already responded</item>
+    </plurals>
+    <plurals name="now_looking">
+        <item quantity="zero">No one looking now</item>
+        <item quantity="one">%1$d man is looking now</item>
+        <item quantity="few">%1$d people are looking now</item>
+        <item quantity="many">%1$d people are looking now</item>
+        <item quantity="other">%1$d people are looking now</item>
+    </plurals>
+    <plurals name="more_vacancies">
+        <item quantity="one">%1$d more vacancy</item>
+        <item quantity="few">%1$d more vacancies</item>
+        <item quantity="many">%1$d more vacancies</item>
+        <item quantity="other">%1$d more vacancies</item>
+    </plurals>
+    <plurals name="quantity_vacancies">
+        <item quantity="one">%1d vacancy</item>
+        <item quantity="few">%1d vacancies</item>
+        <item quantity="many">%1d vacancies</item>
+        <item quantity="other">%1d vacancies</item>
+    </plurals>
 
 </resources>

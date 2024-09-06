@@ -32,7 +32,41 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.testforeffectivehhru.presentation.fragment.MainFragment"
+        android:name="com.example.vacancies.presentation.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_fullVacancyFragment"
+            app:destination="@id/fullVacancyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fullVacancyFragment"
+        android:name="com.example.vacancies.presentation.FullVacancyFragment"
+        android:label="FullVacancyFragment" >
+        <argument
+            android:name="numberOfVacancy"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_fullVacancyFragment_to_sendFragment"
+            app:destination="@id/sendFragment" />
+        <action
+            android:id="@+id/action_fullVacancyFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/sendFragment"
+        android:name="com.example.vacancies.presentation.SendFragment"
+        android:label="SendFragment" >
+        <argument
+            android:name="Question"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_sendFragment_to_fullVacancyFragment"
+            app:destination="@id/fullVacancyFragment" />
+        <argument
+            android:name="Vacancy"
+            app:argType="string" />
+    </dialog>
 </navigation>

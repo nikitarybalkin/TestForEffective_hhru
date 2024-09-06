@@ -43,7 +43,9 @@ android {
 dependencies {
     implementation(project(":core"))
     implementation(project(":network"))
+    implementation(project(":database"))
     implementation(project(":feature:entry"))
+    implementation(project(":feature:vacancies"))
     implementation(libs.androidx.legacy.support.v4)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
