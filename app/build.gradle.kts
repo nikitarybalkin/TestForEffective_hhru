@@ -46,6 +46,7 @@ dependencies {
     implementation(project(":database"))
     implementation(project(":feature:entry"))
     implementation(project(":feature:vacancies"))
+    implementation(project(":feature:favorites"))
     implementation(libs.androidx.legacy.support.v4)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)

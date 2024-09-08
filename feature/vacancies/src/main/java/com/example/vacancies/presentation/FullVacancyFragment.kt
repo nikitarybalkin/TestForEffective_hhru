@@ -87,6 +87,10 @@ class FullVacancyFragment : Fragment() {
                             vacancy.questions,
                             goToSendPage = {question -> goToSendPage(question)}
                         )
+                        it.icFavorite.setOnClickListener {
+                            viewModel.addToFavorites(vacancy)
+                            binding.icFavorite.setImageResource(com.example.core.R.drawable.ic_heart_activated)
+                        }
                         it.bRespond.setOnClickListener {
                             vacanciesRouter.goToSendPage(fragment, question = null, vacancy = vacancy.title)
                         }

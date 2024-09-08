@@ -5,9 +5,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.core.utils.Converters
 import com.example.network.data.Vocation
+import com.example.vacancies.R
 import com.example.vacancies.databinding.ItemVacancyBinding
 
-class VacancyAdapter(private val vocations: List<Vocation>, private val goToFullVacancyPage: (number: Int) -> Unit
+class VacancyAdapter(
+    private val vocations: List<Vocation>,
+    private val goToFullVacancyPage: (number: Int) -> Unit,
+    private val addToFavorites: (Vocation) -> Unit
 ) :
     RecyclerView.Adapter<VacancyViewHolder>() {
 
@@ -41,6 +45,10 @@ class VacancyAdapter(private val vocations: List<Vocation>, private val goToFull
             )
             it.bRespond.setOnClickListener {
                 goToFullVacancyPage(position)
+            }
+            it.icHeart.setOnClickListener {
+                addToFavorites(vocations[position])
+                holder.binding.icHeart.setImageResource(com.example.core.R.drawable.ic_heart_activated)
             }
         }
     }

@@ -1,6 +1,7 @@
 package com.example.testforeffectivehhru.di
 
 import androidx.lifecycle.ViewModel
+import com.example.favorites.presentation.FavoritesViewModel
 import com.example.vacancies.presentation.FullVacancyViewModel
 import com.example.vacancies.presentation.MainViewModel
 import com.example.vacancies.presentation.ResponseViewModel
@@ -40,6 +41,9 @@ interface ViewModelModule {
     @Binds
     fun bindsFullVacancyViewModel(impl: FullVacancyViewModel): ViewModel
 
-
+    @IntoMap
+    @StringKey("FavoritesViewModel")
+    @Binds
+    fun bindsFavoritesViewModel(impl: FavoritesViewModel): ViewModel
 
 }

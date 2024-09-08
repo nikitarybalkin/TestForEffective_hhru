@@ -73,7 +73,8 @@ class MainFragment : Fragment() {
                             binding.icLoupe.visibility = View.VISIBLE
                             binding.rvVacancies.adapter = VacancyAdapter(
                                 shortList,
-                                goToFullVacancyPage = {numb -> goToFullVacancyPage(numb)}
+                                goToFullVacancyPage = {numb -> goToFullVacancyPage(numb)},
+                                addToFavorites = {table -> viewModel.addToFavorites(table)}
 
                             )
                             binding.bMoreVocations.text = resources.getQuantityString(
@@ -92,7 +93,8 @@ class MainFragment : Fragment() {
                             binding.bMoreVocations.visibility = View.GONE
                             binding.rvVacancies.adapter = VacancyAdapter(
                                 vacancies.vacancies,
-                                goToFullVacancyPage = {numb -> goToFullVacancyPage(numb)}
+                                goToFullVacancyPage = {numb -> goToFullVacancyPage(numb)},
+                                addToFavorites = {table -> viewModel.addToFavorites(table)}
                             )
                             val layoutParams = binding.rvVacancies.layoutParams as ConstraintLayout.LayoutParams
                             layoutParams.setMargins(0,140,0, 24)
